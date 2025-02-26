@@ -15,5 +15,26 @@
     "url": "https://github.com/react-agents-registry/telnyx/issues"
   },
   "homepage": "https://github.com/react-agents-registry/telnyx#readme",
-  "description": ""
+  "description": "",
+  "pluginConfig": {
+    "type": "react-agents:1.0.0",
+    "parameters": {
+      "apiKey": {
+        "type": "string",
+        "examples": ["YOUR_TELNYX_API_KEY"]
+      },
+      "phoneNumber": {
+        "type": "string",
+        "examples": ["+14151234567"]
+      },
+      "message": {
+        "type": "boolean",
+        "examples": [true]
+      },
+      "voice": {
+        "type": "boolean",
+        "examples": [true]
+      }
+    }
+  }
 }
