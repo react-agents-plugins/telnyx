@@ -1,0 +1,19 @@
+{
+  "name": "telnyx",
+  "version": "0.0.1",
+  "main": "telnyx.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-agents-registry/telnyx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-agents-registry/telnyx/issues"
+  },
+  "homepage": "https://github.com/react-agents-registry/telnyx#readme",
+  "description": ""
+}
