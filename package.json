@@ -1,5 +1,5 @@
 {
-  "name": "telnyx",
+  "name": "@react-agents-plugins/telnyx",
   "version": "0.0.1",
   "main": "telnyx.tsx",
   "scripts": {
