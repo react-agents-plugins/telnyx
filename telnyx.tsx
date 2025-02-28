@@ -3,9 +3,15 @@ import {
   useAgent,
 } from 'react-agents';
 import {
-  TelnyxProps,
   TelnyxBotArgs,
 } from '../../types';
+
+type TelnyxProps = {
+  apiKey: string;
+  phoneNumber?: string;
+  message: boolean;
+  voice: boolean;
+};
 
 export const Telnyx: React.FC<TelnyxProps> = (props: TelnyxProps) => {
   const {
